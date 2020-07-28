@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+#header{position:absolute;
+        display:block;
+         overflow:hidden;
+         height:1080px;
+         z-index:10;
+        }
+
+
+
+.hTop{text-align:right;
+      padding-top:50px;
+      padding-right:50px;
+      width:100%;
+      width:300px;
+      height:1250px;
+    background:rgba(051,102,051,0.8);
+    
+        
+       }
+.hTop h1{
+        
+         }
+.hTop h1 a{color:#fff;
+          font-size:40px;}
+.util{
+    
+    margin:30px 0;}
+
+.util a{color:#fff;
+        font-size:12px;}
+
+.util a::after{content:"";
+                border:1px solid #D6DAD5;
+                display:inline-block;
+                line-height:7px;
+                height:7px;
+                margin:0 5px;
+                }
+
+.util a:last-child::after{display:none;}
+
+.gnb{}
+.gnb li{margin:20px 0;
+        
+        }
+.gnb li a{color:#fff;
+          font-size:18px;}
+
+
+.sliderTxt{position:absolute;
+           right:35%;
+           margin:0 auto;
+           top:400px;
+            text-align:center;
+            }
+.sliderTxt h2{color:#fff;
+              font-size:130px;
+              border-bottom:1px solid #fff;
+              margin-bottom:20px;
+              opacity:0.9;}
+.sliderTxt p{color:#fff;
+             margin-bottom:5px;
+            }
+.sliderTxt span{color:#fff;
+                font-weight:bold;
+                }
+
+
+
+
+
+#footer{width:100%;
+        padding:50px 0;
+        background:#4f584d;     
+       
+        }
+
+.fMenu{
+    
+      }
+
+.fLogo{float: left;
+        margin-right:50px;
+        }
+.fLogo a{color:#cfd1cf;
+        font-size:35px;
+        font-weight:bold;}
+
+.fInfo{float:left;}
+
+.fMenu01{border-bottom:1px solid #cfd1cf;
+        }
+.fMenu01 li{float: left;
+            margin-right:15px;
+            margin-bottom:5px;
+            }
+.fMenu01 li a{color:#cfd1cf;
+             font-size:12px;}
+
+
+
+
+
+
+
+
+.fAddress{float:left;
+          margin-top:5px;}
+.fAddress li{color:#cfd1cf;
+            font-size:12px;
+            }
+
+
+
+
+.fService{float:right;
+          margin-left:70px;
+         }
+.fService p{font-size:18px;
+            color:#cfd1cf;}

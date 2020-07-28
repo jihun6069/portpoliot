@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+
+#header{background:#dbd4d0;
+        height:100px;}
+
+.hTop{padding-top:10px;
+      padding-bottom:10px;}
+.hTop h1{text-align:center;}
+.hTop h1 a{color:#000;}
+.hTop h1 img{}
+
+.gnb{}
+.gnb li{float:left;
+        margin-right:15px;
+       }
+.gnb li a{color:#333;}
+
+
+.utill{position:relative;
+       }
+.utill li{float:right;
+          margin-right:15px;
+        }
+.utill li a{color:#333;}
+
+.uSuch{position:absolute;
+       right:-15px;}
+.uSuch a{}
+.uSuch img{}
+
+
+
+
+#footer{height:400px;
+        background:#075da7;
+        margin-top:80px;
+        position:relative;}
+
+.fLogo{}
+.fLogo a{}
+.fLogo a img{width:30%;}
+
+
+.fSuch{position:absolute;    
+       left:250px;
+        bottom:120px;
+        width:140px;
+       height:30px;
+       background:#044c8a;}
+.fSuch a{font-weight:bold;
+          font-size:12px;
+          color:#fff;
+          display: block;
+          text-align:right;
+          line-height:30px;
+          padding-right:5px;}
+.such a img{width:10px;}
+
+
+.fMenu{margin-left:35%;
+       color:#fff;
+        }
+
+.fMenu01{float:left;
+         margin-right:120px;
+          
+         }
+.fMenu01 li{font-size:14px;
+            margin-bottom:5px;}
+.fMenu01 li a{color:#fff;
+              }
+
+.menu01{}
+
+.menu01::after{content:"";
+                border-bottom:1px solid #fff;
+                 display:block;
+                margin:10px 0;
+                 width:35px;}
+
+.menu01 a{color:#fff;
+          font-weight:bold;
+          font-size:18px;}
+
+.fMenu02{float:left;
+            margin-right:120px;
+       }
+.fMenu02 li{font-size:14px;
+            margin-bottom:5px;}
+.fMenu02 li a{color:#fff;}
+
+.menu02{}
+.menu02 a{color:#fff;
+          font-weight:bold;
+         font-size:18px;}
+
+.menu02::after{content:"";
+                border-bottom:1px solid #fff;
+                 display:block;
+                margin:10px 0;
+                 width:35px;}
+
+.fMenu03{float:left;}
+
+.menu03{}
+.menu03 h6{font-weight:bold;
+          font-size:18px;}
+.menu03 p{font-size:16px;
+          margin-bottom:5px;}
+.menu03 span{font-size:14px;}
+
+.menu03 h6::after{content:"";
+                border-bottom:1px solid #fff;
+                 display:block;
+                margin:10px 0;
+                 width:35px;}
+
+
+.menu03Left{float:left;
+            margin-top:20px;
+            margin-right:40px;
+            background:#044c8a;}
+.menu03Left a{ color:#fff;}
+
+
+.menu03Right{margin-top:20px;
+            background:#044c8a;
+            display:inline-block;}
+.menu03Right a{color:#fff;}

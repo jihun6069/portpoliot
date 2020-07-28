@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.mainSlider{
+    height:1080px;
+}
+#mainVideo{position:fixed;
+          min-width:100%;
+          min-height:100%;
+          width:auto;
+          height:auto;
+        z-index: -1;
+         
+           }
+
+
+        
+
+.mainCon01{position:relative;}
+
+.mainCon01 img{width:100%;
+                display:block;
+                 }
+
+.pBox01{
+        position:absolute;
+        width:450px;
+        height:300px;
+        background:#fff;
+        right:40%;
+        top:30%;
+        }
+.pBox01 a{color:black;
+          font-size:60px;
+           
+          }
+.pBox01 p{font-weight:bold;
+           padding-top:20px;
+          
+          }
+.pBox01 span{padding-left:50px;}
+
+
+
+.pBox02 {width:110px;  
+        height:20px;
+        margin:0 400px;;
+        font-size:10px;
+          color:#f0f0f0;
+          font-weight:bold;
+          text-align:center;
+        line-height:10px;
+        background:#000;
+        margin-top:15px;
+        
+       }
+
+
+
+.mainCon02{
+           }
+
+.leftCon01{background:url(../images/commom/kitchen-4043098_1920.jpg) no-repeat center center;
+            width:50%;
+            height:775px;
+            display:inline-block;
+            }
+
+.lBox01{background:url(../images/main/mainBox_07.png) no-repeat center;
+        background-size:380px;
+        width:100%;
+        height:416px;
+        text-align:center;
+        display:inline-block;
+        margin-top:140px;
+        margin-left:50px;
+        line-height:25px;}
+        
+.lBox01 p{font-weight:bold;
+          font-size:30px;
+            margin-top:90px;
+            margin-bottom:30px;}
+.lBox01 span{font-size:17px;}
+
+.lBtn{}
+.lBtn li{margin-top:100px;
+         margin-left:120px;
+          }
+.lBtn li a{color:black;
+         font-weight:bold;}
+.lBtn img{}
+
+.rightCon02{float:right;
+    background:url(../images/commom/modern-minimalist-bathroom-3115450_1280.jpg) no-repeat;
+    width:50%;
+    height:775px;}
+
+.rightCon02 p{font-size:400px;
+              color:#fff;
+              opacity:0.5;
+              text-align:center;
+              margin-top:80px;   
+              }
+
+.rBtn{}
+.rBtn li{text-align: right;
+        margin-right:100px;
+         }
+.rBtn li a{font-size:17px;
+          font-weight: bold;
+            color:black;}
+.rBtn img{}
+
+.mainCon03{position: absolute;
+            position: relative;
+            background:#ede6e3;
+            width:100%;
+           height:550px;}
+
+.con04{background:url(../images/commom/con03main_07.png) no-repeat;
+      width:100%;
+      height:400px;
+      background-position: center;
+      padding-top:150px;}
+
+.con04 p{text-align: center;
+         font-size:22px;
+          color:#333;
+         font-weight: bold;
+         margin-top:50px;}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+
+
+.hLeft{float: left;
+        background:url(../images/main_01.png) no-repeat right;
+        background-size:cover;
+        width:50%;
+        height:100%;
+       
+    
+}
+
+
+.hLogo{padding-top:15px;
+       margin-left:15px;}
+.hLogo h1{font-size: 20px;}
+
+.mainTxt01{font-size:180px;
+           font-weight:bold;
+           color:#333;
+           opacity:0.5;
+           text-align:right;
+           margin-right:150px;
+           margin-top:120px;
+}
+
+.hRight{float:right;
+        background:url(../images/main_02.png) no-repeat;
+        width:50%;    
+        height:100%;
+        background-size:cover;
+        
+        
+        }
+
+.mainTxt02{color:#333;
+           opacity:0.5;
+            margin-left:150px;
+            margin-top:230px;
+
+}
+.mainTxt02 p{font-size:180px;
+            font-weight:bold;
+            margin-bottom:80px;
+            }
+.mainTxt02 span{font-size:180px;
+                font-weight:bold}
+
+
+
+
+
+
+       
+       
+.btn01{z-index: 10;
+        -webkit-transform: rotate(90deg);
+       -webkit-transform-origin: left top;
+       -moz-transform: rotate(90deg);
+       -moz-transform-origin: left top;
+       -ms-transform: rotate(90deg);
+       -ms-transform-origin: left top;
+       -o-transform: rotate(90deg);
+       -o-transform-origin: left top;
+       transform: rotate(90deg);
+       transform-origin: left top;
+       position: absolute;
+       top:45%;
+       right:90%;
+       white-space: nowrap;    
+       font-size:18px;}
+.btn01 a{color:#333;
+          font-weight:bold;}
+
+.btn01 a:before, .btn01 a:after{content: '';
+  border-bottom: solid 1px white;
+  position: absolute;
+  bottom: 0;
+  width: 0;}
+
+.btn01 a:before{left:0;}
+.btn01 a:after{right:0;}
+
+.btn01 a:hover:before, .btn01 a:hover:after{width:50%;}
+
+.btn01 a:before, .btn01 a:after{-webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;}
+
+
+
+.btn02{
+        -webkit-transform: rotate(90deg);
+       -webkit-transform-origin: left top;
+       -moz-transform: rotate(90deg);
+       -moz-transform-origin: left top;
+       -ms-transform: rotate(90deg);
+       -ms-transform-origin: left top;
+       -o-transform: rotate(90deg);
+       -o-transform-origin: left top;
+       transform: rotate(90deg);
+       transform-origin: left top;
+       position: absolute;
+       top:52%;
+       right:90%;
+       white-space: nowrap;    
+       font-size:18px;
+        }
+.btn02 a{color:#333;
+        font-weight:bold;}
+
+
+.btn02 a:before, .btn02 a:after{content:'';
+  border-bottom: solid 1px white;
+  position: absolute;
+  bottom: 0;
+  width: 0;}
+
+.btn02 a:before{left:0;}
+.btn02 a:after{right:0;}
+
+.btn02 a:hover:before, .btn02 a:hover:after{width:50%;}
+
+.btn02 a:before, .btn02 a:after{-webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;}
